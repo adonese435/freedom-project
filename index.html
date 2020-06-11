@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+  #borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(fff.png) 30 round;
+}
+  body {background-color:#000000  ;}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 3px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 10%;
+  overflow: hidden;
+  background-color: #0030f0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+a:hover:not(.active) {
+  background-color: #2bd6d3;
+}
+
+.active {
+  background-color:#2bd6d3;
+}
+body {
+  color: white;
+}
+
+p {
+  color: pink;
+}
+</style>
+</head>
+<body>
+<h2>FORENSiC SCIENCE</h2>
+ 
+<p> Adonese Kabtoul </p>
+
+
+<div class="row">
+  <div class="column">
+    <img src="f.png" alt="img 1" style="width:107%">
+  </div>
+  <div class="column">
+    <img src="ff.png" alt="img 2" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="ffff.png" alt="img 3" style="width:80%" >
+  </div>
+</div>
+
+
+<ul>
+  <li><a href="About.html"<>About </a> </li>
+  <li><a href="jobs.html">Jobs</a></li>
+  <li><a href="investigations.html">Investigations</a></li>
+  <li><a href="scources.html" >Sources</a></li>
+  
+</ul>
+<p></p> 
+<p></p><center><img src="fff.png"></center>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-6">
+    <h1>What Is Forensic Science?</h1>
+    <p>Forensic science is the practice of solving crimes by using scientific methods and processes. It is also used to prove the existence of a crime. The use of forensic science is commonly used while solving crimes such as homicides, criminal cases, convictions, etc. Forensic science uses different scientific subjects like physics, biology, and chemistry. It focuses on using physical evidence that is available at a crime scene such as DNA, blood samples, hair, etc. There are different skills and branches for people how work with forensic science, which are forensic pathologists, associated scientists, and of course forensic scientists. 
+</p>
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Forensic Scientists:</h2>
+      <p>Forensic professionals working in law enforcement, government, or private forensic laboratories who are responsible for dealing with any number of specific tests and analyses, such as toxicology, ballistics, trace evidence, etc.</p>
+      <h2>Forensic Pathologists:</h2>
+      <p>Can be reffered to as medical examiners that oversee and investigate in autopsies and clinical forensic examinations.</p>
+      <h2>Associated Scientists</h2>
+      <p>Scientific professionals lending their knowledge to forensic science, such as forensic odontologists, forensic botanists, forensic anthropologists, etc.  These scientists apply their knowledge to the forensic science field as to provide investigators with crucial information regarding everything from bite marks to insect infestation on the postmortem body..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
